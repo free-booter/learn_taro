@@ -1,0 +1,14 @@
+.local-style {
+  color: purple;
+  border: 4px solid purple;
+  .name {
+    color: red;
+  }
+  &:hover {
+    color: blue;
+  }
+}
+// 全局样式
+:global(.title) {
+  color: orange;
+}
